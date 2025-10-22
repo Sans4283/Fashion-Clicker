@@ -1,8 +1,36 @@
 Lets make a game!
 	name:Fashion Clicker
 	by:Sanskaar
+	author:Sanskaar
 	desc:Fix as many clothes as possible!
-	created:21/10/2025
+	created:19/10/2025
 	updated:21/10/2025
 	version:1
-	
+
+CSS
+#game.on
+{
+	background-size: 100% 100%;
+	image-rendering: pixelated;
+}
+
+Settings
+	background:https://file.garden/aPg5ifwU4SsLTvwg/StripedBackground.jpg
+	stylesheet:stuff/bigBlue.css
+
+Buildings
+	*intern|interns
+		name:Intern|Interns
+		desc:Inexperienced at sewing but still helps a little
+		on tick:yield 1 cloth
+		cost:20 clothes
+
+Resources
+	*cloth|clothes
+		name:Clothing|Clothes
+		desc:Repair As Many As You Can
+
+Buttons
+	*clothButton
+		on click:yield 1 cloth
+		class:bigButton hasFlares
