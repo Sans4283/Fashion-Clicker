@@ -1,0 +1,8 @@
+Lets make a game!
+	name:Fashion Clicker
+	by:Sanskaar
+	desc:Fix as many clothes as possible!
+	created:21/10/2025
+	updated:21/10/2025
+	version:1
+	
